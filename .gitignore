@@ -1,0 +1,23 @@
+# Dataset images (train/val/test splits) -- keep stats.json and split_manifest_chest.csv, they're small and needed by the app
+dataset/train/
+dataset/val/
+dataset/test/
+dataset/images/
+dataset/*.zip
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+.vscode/
